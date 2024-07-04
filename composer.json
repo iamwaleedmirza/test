@@ -1,0 +1,22 @@
+{
+    "name": "asimzareen/contact",
+    "description": "i m sending email to users",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "AsimZareen\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AsimZareen\\Contact\\ContactServiceProvider"
+            ]
+           
+        }
+    }
+}
