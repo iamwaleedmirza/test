@@ -11,13 +11,14 @@
     <h1>contact us here!</h1>
     <form action="{{route('contact')}}" method="post">
         @csrf
-        Name
+        <label> Name</label>
         <input type="text" name="name"><br>
-        Email
+        <label> Email</label>
         <input type="text" name="email"><br>
-        Message
+        <label> Message</label>
         <input type="text" name="msg"><br>
         <button type="submit">Sent</button>
+
 
 
     </form>
